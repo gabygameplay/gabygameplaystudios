@@ -1,0 +1,508 @@
+
+  
+} 
+
+html { 
+  height: 100%;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+}
+
+
+body { 
+  font:24px ul#f2e6e7;
+  color: #000;
+}
+
+
+
+img { 
+  border: 0;
+}
+
+
+
+h2 { 
+  font-size: 30px;
+  padding: 9px 0 5px 0;
+  color: #c5d4e0;
+}
+
+h3 { 
+ 
+  padding: 4px 0 0 0;
+  color: #000;
+}
+
+h4 { 
+  color: #c5d4e0;
+  padding: 0 0 5px 0;
+  font: normal 20px arial, sans-serif;
+}
+
+h5{ 
+  color: #c5d4e0;
+  font: italic 14px arial, sans-serif;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;
+}
+
+a { 
+  outline: none;
+  text-decoration: underline;
+  color: #e26c6c;
+}
+
+a:hover { 
+  text-decoration: none;
+   color: #e24f5e;
+}
+
+
+
+ul { 
+  margin: 2px 0 22px 17px;
+}
+
+ul li { 
+  list-style-type: circle;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 5px;
+  line-height: 1.5em;
+}
+
+
+#main {
+  margin: 5px auto;
+  width: 100%;
+  background: transparent;
+  padding-bottom: 30px;
+}
+
+header { 
+  background: transparent;
+  height: 130px;
+}
+
+.topo { 
+  width: 100%;
+  height: 130px;
+  background: transparent;
+  color: #888;
+  padding: 0;
+  float: left;
+  margin-left: 150px;
+}
+
+.logotipo img {
+
+	width: 140px;
+  height: 140px;
+}
+
+
+nav { 
+  height: 44px;
+  width: 100%;
+  float: right;
+  margin: +20px  0 10px 0;
+  padding: left;
+  color: #ed1022;
+  border-bottom: 1px solid #f44242;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+} 
+
+/* ESSA SEÇÃO É DE LINKS GERAIS */
+
+/* Link não visitado */
+a:link {
+    color: #d4939a;
+}
+
+/* Link visitado */
+a:visited {
+    color: #d4939a;
+}
+
+/* link selecionado */
+a:active {
+    color: yellow;
+}
+
+#site_content { 
+  width: 950px;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  padding: 15px 0 15px 0;
+} 
+
+#sidebar_container { 
+  float: right;
+  width: 224px;
+  margin: 25px 0 0 0;
+}
+
+.sidebar { 
+  float: right;
+  width: 200px;
+  padding: 5px 20px;
+  margin: 0 0 17px 0;
+}
+  
+.sidebar h3, .content h1 { 
+  padding: 0 15px 20px 0;
+  font: 240% 'News Cycle', arial, sans-serif;
+  text-shadow:  #ccc 1px 1px;
+  margin: 0 1px;
+  color: #000;
+}
+
+.sidebar h3 { 
+  color: #000;
+  font: 200% Verdana, arial, sans-serif;
+  padding: 0 15px 5px 0;
+}
+
+.sidebar ul { 
+  margin: 0 0 15px 0;
+} 
+
+.sidebar li a, .sidebar li a:hover { 
+  color: #a5303b;
+  text-decoration: none;
+} 
+
+.sidebar li a:hover { 
+  text-decoration: underline;
+} 
+
+.sidebar_item, .content_item { 
+  padding: 15px 0;
+}
+
+.content { 
+  text-align: left;
+  width: 670px;
+  margin: 25px 0 0 0;
+  float: left;
+  font-size: 120%;
+}
+  
+.content ul { 
+  margin: 2px 0 22px 0px;
+}
+
+.content ul li, .sidebar ul li { 
+  list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 0 0; 
+  padding: 0 0 4px 28px;
+  line-height: 1.5em;
+}
+
+footer { 
+  width: 950px;
+  font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
+  height: 30px;
+  padding: 5px 0 20px 0;
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+}
+
+footer p { 
+  line-height: 1.7em;
+  padding: 0 0 10px 0;
+}
+
+footer a { 
+  color: #a5303b;
+  text-decoration: none;
+}
+
+footer a:hover { 
+  color: #a5303b;
+  text-shadow: none;
+  text-decoration: underline;
+}
+
+.form_settings { 
+  margin: 15px 0 0 0;
+}
+
+.form_settings p { 
+  padding: 0 0 4px 0;
+}
+
+.form_settings span { 
+  float: left; 
+  width: 200px; 
+  text-align: left;
+}
+  
+.form_settings input, .form_settings textarea { 
+  padding: 5px; 
+  width: 299px; 
+  font: 100% arial; 
+  border: 1px solid #D5D5D5; 
+  background: #FFF; 
+  color: #47433F;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  
+}
+  
+.form_settings .submit { 
+  font: 140% 'Yanone Kaffeesatz', arial, sans-serif; 
+  border: 0; 
+  width: 99px; 
+  margin: 0 0 0 212px; 
+  height: 33px;
+  padding: 2px 0 3px 0;
+  cursor: pointer; 
+  background: #ddd; /* Show a solid color for older browsers */
+  background: -moz-linear-gradient(#fff, #ddd);
+  background: -o-linear-gradient(#fff, #ddd);
+  background: -webkit-linear-gradient(#fff, #ddd);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 2px;
+  border: 1px solid #ddd;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;
+  color: #222;
+  text-shadow: 1px 1px #FFF;
+}
+
+.form_settings textarea, .form_settings select { 
+  font: 100% arial; 
+  width: 299px;
+}
+
+.form_settings select { 
+  width: 310px;
+}
+
+.form_settings .checkbox { 
+  margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;
+}
+
+.separator { 
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #D9D5CF;
+  border-bottom: 1px solid #FFF;
+  margin: 0 0 20px 0;
+}
+  
+table { 
+  margin: 10px 0 30px 0;
+}
+
+table tr th, table tr td { 
+  background: #BBB;
+  color: #FFF;
+  padding: 7px 4px;
+  text-align: left;
+}
+  
+table tr td { 
+  background: #DDD;
+  color: #444;
+  border-top: 1px solid #FFF;
+}
+
+.gallery{
+  width:950px;
+  height:300px;
+  border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border: 7px 7px 7px 7px;  }
+
+ul.images {
+  width:950px;
+  height:300px;
+  overflow:hidden;
+  position:relative;
+  margin:0;
+  padding:0;
+} 
+
+ul.images li {
+  position:absolute;
+  margin:0;
+  padding:0;
+  left:0;
+  right:0;
+  list-style:none;
+}
+ 
+ul.images li.show {
+  z-index:500;  
+}
+ 
+ul img {
+  border:none;  
+}
+
+
+/**
+Stylesheet for SooperFish by www.SooperThemes.com
+Author: Jurriaan Roelofs
+**/
+
+/* Configuration of menu width */
+html body ul.menu ul,html body ul.menu ul li { 
+  width: 200px;
+}
+
+html body ul.menu ul ul { 
+  margin: 0 0 0 200px;
+}
+
+/* Framework for proper showing/hiding/positioning */
+ul.menu,ul.menu * { 
+  margin-left: 29px;
+  padding: -6px;
+
+}
+
+ul.menu { 
+  display: block;
+  position: relative;
+}
+  
+ul.menu li { 
+  display: block;
+  list-style: none;
+  float: left;
+  position: relative;
+}
+  
+ul.menu li:hover { 
+  visibility: inherit; /* fixes IE7 'sticky bug' */ 
+}
+
+ul.menu a { 
+  display: block;
+  position: relative;
+}
+  
+ul.menu ul { 
+  position: absolute;
+  left: 0;
+  width: 150px; 
+  top: auto;
+  left: -999999px;
+}
+  
+ul.menu ul a { 
+  zoom: 1; /* IE6/7 fix */ 
+}
+
+ul.menu ul li { 
+  float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
+  width: 150px;
+}
+  
+ul.menu ul ul { 
+  top: 0;
+  margin: 0 0 0 150px;
+}
+
+ul.menu li:hover ul,ul.menu li:focus ul,ul.menu li.sf-hover ul, 
+ul.menu ul li:hover ul,ul.menu ul li:focus ul,ul.menu ul li.sf-hover ul,
+ul.menu ul ul li:hover ul,ul.menu ul ul li:focus ul,ul.menu ul ul li.sf-hover ul,
+ul.menu ul ul ul li:hover ul,ul.menu ul ul ul li:focus ul,ul.menu ul ul ul li.sf-hover ul { 
+  left: auto;
+}
+  
+ul.menu li:hover ul ul,ul.menu li:focus ul ul,ul.menu li.sf-hover ul ul,
+ul.menu ul li:hover ul ul,ul.menu ul li:focus ul ul,ul.menu ul li.sf-hover ul ul,
+ul.menu ul ul li:hover ul ul,ul.menu ul ul li:focus ul ul,ul.menu ul ul li.sf-hover ul ul,
+ul.menu ul ul ul li:hover ul ul,ul.menu ul ul ul li:focus ul ul,ul.menu ul ul ul li.sf-hover ul ul { 
+  left: -999999px;
+}
+
+/* autoArrows CSS */
+span.sf-arrow { 
+  width: 7px;
+  height: 7px;
+  position: absolute;
+  top: 20px;
+  right: 5px;
+  display: block;
+  background: url(../images/arrows-white.png) no-repeat 0 0;
+  overflow: hidden; /* making sure IE6 doesn't overflow and expand the box */
+  font-size: 1px;
+}
+
+ul ul span.sf-arrow { 
+  right: 5px;
+  top: 20px;
+  background-position: 0 100%;
+}
+
+/* Theming the menu */
+ul.menu { 
+  float: left;
+}
+
+ul.menu ul { 
+  background: #555;
+  margin-top: 5px;
+  padding-bottom: 15px;
+}
+
+ul.menu li a { 
+  padding: 7px 25px 6px 25px;
+  font: 170% 'Yanone Kaffeesatz', arial, sans-serif;
+  text-decoration: none;
+  color: #000;
+  margin-right: 2px;
+}
+
+ul.menu li a:hover, ul.menu li a:focus, ul.menu li.selected a, ul.menu li.selected a:hover, ul.menu li.selected a:focus { 
+  color: #a5303b;
+  text-shadow: none;
+}
+
+ul.menu ul li a { 
+  color: #FFF;
+}
+
+ul.menu ul li a:hover { 
+  color: #09D4FF;
+  margin-right: 2px;
+}
+
+
+
+/* Image Transitions */
+ul#images {
+  margin: 0 15px 10px 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+ul#images li {
+  display: block;
+  overflow: hidden;
+  padding: 0;
+  float: left;
+  width: 155px;
+  height: 300px;
+}
